@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.item {
+  display: flex;
+  align-items: center;
+  margin: 0 4rem;
+}
+.nav_text {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #000000;
+}
+
+.nav_icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 0.6rem;
+}
