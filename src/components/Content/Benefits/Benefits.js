@@ -15,7 +15,7 @@ const Benefits = () => {
             <span className={`${styles.text2} ${styles.dashed}`}>18,500</span>{" "}
             at just{" "}
             <span className={`${styles.text2} ${styles.textcolor}`}>₹ 99</span>{" "}
-            per year
+            per year!
           </h1>
         </div>
         <List />

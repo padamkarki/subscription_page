@@ -1,6 +1,6 @@
 .content_container {
   display: flex;
-  padding: 4rem 5rem 3rem 8rem;
+  padding: 4rem 6rem 3rem 8.5rem;
   background-image: url("../../assets/BackGround.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,9 +10,9 @@
 }
 
 .benefits {
-  width: 60%;
+  width: 64%;
 }
 
 .subscription {
-  width: 40%;
+  width: 36%;
 }

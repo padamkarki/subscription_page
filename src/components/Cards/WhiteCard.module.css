@@ -3,5 +3,6 @@
   overflow: hidden;
   border-radius: 8px;
   background-color: #ffffff;
-  padding: 1rem;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  margin: 0 1rem 0rem 3rem;
 }

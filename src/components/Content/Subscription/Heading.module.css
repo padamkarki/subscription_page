@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  margin: 0 1rem;
+  margin: 0 2rem;
 }
 
 .circle1 {
@@ -15,7 +15,7 @@
   border-radius: 50%;
   background: #0096ff;
   margin-left: 0.45rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 .circle2 {
   display: flex;
@@ -26,13 +26,14 @@
   border-radius: 50%;
   background: #0096ff;
   margin-left: 1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .text {
   font-family: "Roboto";
   font-weight: 600;
   font-size: 24px;
+  line-height: 18px;
   letter-spacing: -0.015em;
   color: #ffffff;
 }
@@ -45,4 +46,15 @@
   line-height: 19px;
   text-align: center;
   letter-spacing: -0.01em;
+}
+
+.heading {
+  margin: 1.5rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  align-items: center;
+  text-align: center;
+  color: #3c4852;
 }
