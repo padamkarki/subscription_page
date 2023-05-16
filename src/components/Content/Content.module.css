@@ -1,0 +1,18 @@
+.content_container {
+  display: flex;
+  padding: 4rem 5rem 3rem 8rem;
+  background-image: url("../../assets/BackGround.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 80vh;
+}
+
+.benefits {
+  width: 60%;
+}
+
+.subscription {
+  width: 40%;
+}

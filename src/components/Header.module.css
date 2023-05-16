@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   margin: 0.85rem 6.66rem;
-  /* margin: 13.5px 106.5px; */
 }
+
 .left_container {
   display: flex;
   align-items: center;
@@ -27,10 +27,76 @@
   text-align: center;
 }
 
-.button_text {
+.button {
   color: white;
   background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
   border-radius: 52px;
   border: none;
   padding: 0.8rem 2.8rem;
+  background-size: 200% auto;
+  transition: background-position 0.3s ease;
+}
+.button:hover {
+  background-position: 100% 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    display: block;
+    margin: 0.5rem 0.5rem;
+  }
+
+  .left_container {
+    display: block;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
+  .right_container {
+    justify-content: center;
+  }
+
+  .link {
+    margin: 0 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    display: block;
+    margin: 0.5rem 0.5rem;
+  }
+
+  .left_container {
+    display: block;
+    margin-bottom: 1rem;
+    justify-content: center;
+  }
+
+  .right_container {
+    justify-content: center;
+  }
+
+  .link {
+    margin: 0 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    display: block;
+    margin: 0.5rem 0.5rem;
+  }
+
+  .left_container {
+    display: block;
+    justify-content: center;
+  }
+  .right_container {
+    justify-content: center;
+  }
+
+  .link {
+    margin: 0 1rem;
+  }
 }

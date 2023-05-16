@@ -15,9 +15,7 @@ const Header = () => {
       <div className={styles.right_container}>
         <SearchIcon />
         <button className={`${styles.text} ${styles.link}`}>Log in</button>
-        <button className={`${styles.text} ${styles.button_text}`}>
-          JOIN NOW
-        </button>
+        <button className={`${styles.text} ${styles.button}`}>JOIN NOW</button>
       </div>
     </header>
   );
