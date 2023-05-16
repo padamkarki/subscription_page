@@ -1,7 +1,15 @@
 import React from "react";
+import Card from "../../Cards/WhiteCard";
+import Heading from "./Heading";
 
 const Subscription = () => {
-  return <h2>Subscription</h2>;
+  return (
+    <>
+      <Card>
+        <Heading />
+      </Card>
+    </>
+  );
 };
 
 export default Subscription;
