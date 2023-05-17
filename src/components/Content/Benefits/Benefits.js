@@ -9,9 +9,8 @@ const Benefits = () => {
     <>
       <section>
         <div className={styles.text1}>
-          <h1>Access curated courses worth</h1>
-          <h1>
-            <span className={styles.text2}>₹</span>{" "}
+          <h1 className={styles.headingText}>
+            Access curated courses worth <span className={styles.text2}>₹</span>{" "}
             <span className={`${styles.text2} ${styles.dashed}`}>18,500</span>{" "}
             at just{" "}
             <span className={`${styles.text2} ${styles.textcolor}`}>₹ 99</span>{" "}

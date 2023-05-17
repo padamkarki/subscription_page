@@ -16,6 +16,7 @@
 .link {
   all: unset;
   margin: 0 4rem;
+  cursor: pointer;
 }
 
 .text {
@@ -35,9 +36,13 @@
   padding: 0.8rem 2.8rem;
   background-size: 200% auto;
   transition: background-position 0.3s ease;
+  cursor: pointer;
 }
 .button:hover {
   background-position: 100% 0;
+}
+.button:active {
+  background: linear-gradient(266.79deg, #0041e7 4.63%, #003e6a 100%);
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

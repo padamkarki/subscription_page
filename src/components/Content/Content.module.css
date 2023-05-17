@@ -1,7 +1,7 @@
 .content_container {
   display: flex;
   padding: 4rem 6rem 3rem 8.5rem;
-  background-image: url("../../assets/BackGround.png");
+  background-image: url("../../assets/BackGround.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -15,4 +15,51 @@
 
 .subscription {
   width: 36%;
+}
+
+/* -RESPONSIVE------------------------------------------------------------------------ */
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+  .content_container {
+    padding: 2rem 2rem 1rem 3rem;
+  }
+
+  .benefits {
+    width: 50%;
+  }
+
+  .subscription {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .content_container {
+    display: block;
+    padding: 3rem;
+  }
+
+  .benefits {
+    width: 100%;
+  }
+
+  .subscription {
+    width: 100%;
+  }
+}
+
+/* @media (min-width: 481px) and (max-width: 767px) {} */
+
+@media (max-width: 767px) {
+  .content_container {
+    display: block;
+    padding: 1rem;
+  }
+  .benefits {
+    width: 100%;
+  }
+
+  .subscription {
+    width: 100%;
+  }
 }

@@ -21,6 +21,15 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  cursor: pointer;
+}
+
+.cancelButton:hover {
+  background-color: #f77171;
+  color: white;
+}
+.cancelButton:active {
+  background-color: #943f3f;
 }
 
 .proceedButton {
@@ -35,6 +44,14 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 19px;
+  cursor: pointer;
+}
+.proceedButton:hover {
+  background-color: #388e50;
+}
+
+.proceedButton:active {
+  background-color: #276b40;
 }
 
 .img {

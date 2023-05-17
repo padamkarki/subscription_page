@@ -1,3 +1,7 @@
+.headingText {
+  width: 75%;
+}
+
 .text1 {
   text-align: left;
   font-family: "Raleway";
@@ -22,6 +26,7 @@
 
 .dashed {
   position: relative;
+  display: inline-block; /* Add this line */
 }
 
 .dashed::before {
@@ -36,4 +41,55 @@
 }
 .textcolor {
   color: #0096ff;
+  display: inline-block; /* Add this line */
 }
+
+/* RESPONSIVE-------------------------------------------------------- */
+
+@media (min-width: 768px) and (max-width: 1600px) {
+  .text1 {
+    font-size: 46px;
+  }
+
+  .text2 {
+    font-size: 54px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1600px) {
+  .headingText {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .headingText {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .headingText {
+    width: 100%;
+  }
+  .text1 {
+    font-size: 36px;
+  }
+
+  .text2 {
+    font-size: 44px;
+  }
+}
+
+/* Text align center-------------------------------------------------------- */
+
+@media (max-width: 1024px) {
+  .text1 {
+    text-align: center;
+  }
+
+  .text2 {
+    text-align: center;
+  }
+}
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+} */

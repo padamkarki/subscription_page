@@ -118,7 +118,34 @@
   transform: translate(-50%, -50%) rotate(45deg) scale(1);
 }
 
-/* ------------------------------------------------------------------------------- */
+.background {
+  float: left;
+  background-color: #f77171;
+  padding: 1px 29px;
+  margin-left: 8px;
+  border-radius: 0px 0px 4px 4px;
+  position: relative;
+  transform: translate(38px, -50px);
+}
+
+.backgroundText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+.background2 {
+  float: left;
+  background-color: #47ba68;
+  padding: 1px 25px;
+  margin-left: 8px;
+  border-radius: 0px 0px 4px 4px;
+  position: relative;
+  transform: translate(38px, -50px);
+}
+
+/* CALCULATIONS------------------------------------------------------------------------------- */
 
 .line {
   margin-top: 28px;
@@ -152,9 +179,10 @@
   margin-left: auto;
 }
 
+/* Card------------------------------------------------------------------------------- */
+
 .card {
-  border-radius: 8px;
-  border-width: 2px;
+  border: 2px;
   border-style: solid;
   border-image: linear-gradient(
       135deg,
@@ -162,6 +190,7 @@
       rgba(254, 193, 99, 1)
     )
     1;
+  border-radius: 8px;
   background: linear-gradient(
     135deg,
     rgba(222, 67, 19, 0.2),
@@ -177,6 +206,7 @@
   filter: brightness(0) saturate(100%) invert(36%) sepia(84%) saturate(2922%)
     hue-rotate(354deg) brightness(104%) contrast(99%);
 }
+/* Card END------------------------------------------------------------------------------- */
 
 .text4 {
   font-weight: 400;

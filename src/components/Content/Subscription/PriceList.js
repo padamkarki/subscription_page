@@ -32,11 +32,14 @@ const PriceList = () => {
     if (selectedOption) {
       setDiscount(subscriptionFee - selectedOption.total);
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
     <div>
-      {plans.map((option) => (
+      {/* PLAN LIST -------------------------------------------------------------------------------------*/}
+
+      {plans.map((option, index) => (
         <div
           key={option.id}
           className={`${styles.option} ${
@@ -69,6 +72,16 @@ const PriceList = () => {
               </p>
             </div>
           </label>
+          {index === 0 && (
+            <div className={styles.background}>
+              <p className={styles.backgroundText}>Offer expired</p>
+            </div>
+          )}
+          {index === 1 && (
+            <div className={styles.background2}>
+              <p className={styles.backgroundText}>Recommended</p>
+            </div>
+          )}
         </div>
       ))}
       {plan && (
@@ -78,16 +91,20 @@ const PriceList = () => {
               <p className={styles.text4}>Subscription Fee </p>
             </div>
             <div className={styles.right}>
-              <p className={styles.text7}>₹ {subscriptionFee}</p>
+              <p className={styles.text7}>
+                ₹ {subscriptionFee.toLocaleString()}
+              </p>
             </div>
           </div>
+
+          {/* CARD -------------------------------------------------------------------------------------*/}
           <div className={styles.card}>
             <div className={styles.container1}>
               <div className={styles.left}>
                 <p className={styles.text5}>Limited time offer</p>
               </div>
               <div className={styles.right}>
-                <p className={styles.text7}>-{discount}</p>
+                <p className={styles.text7}>-{discount.toLocaleString()}</p>
               </div>
             </div>
             <div className={styles.container1}>
@@ -105,6 +122,8 @@ const PriceList = () => {
               </div>
             </div>
           </div>
+
+          {/* Total -------------------------------------------------------------------------------------*/}
 
           <div className={styles.container3}>
             <div className={styles.left}>
