@@ -99,26 +99,30 @@ const PriceList = () => {
 
           {/* CARD -------------------------------------------------------------------------------------*/}
           <div className={styles.card}>
-            <div className={styles.container1}>
-              <div className={styles.left}>
-                <p className={styles.text5}>Limited time offer</p>
+            <div className={styles.content}>
+              <div className={styles.container1}>
+                <div className={styles.left}>
+                  <p className={styles.text5}>Limited time offer</p>
+                </div>
+                <div className={styles.right}>
+                  <p className={styles.text7}>-{discount.toLocaleString()}</p>
+                </div>
               </div>
-              <div className={styles.right}>
-                <p className={styles.text7}>-{discount.toLocaleString()}</p>
-              </div>
-            </div>
-            <div className={styles.container1}>
-              <div className={styles.left}>
-                <span>
-                  <img
-                    src={offerclock}
-                    width={20}
-                    height={20}
-                    alt="icon"
-                    className={styles.offer_icon}
-                  />
-                </span>
-                <p className={styles.text6}>Offer valid till 25th March 2023</p>
+              <div className={styles.container1}>
+                <div className={styles.left}>
+                  <span>
+                    <img
+                      src={offerclock}
+                      width={20}
+                      height={20}
+                      alt="icon"
+                      className={styles.offer_icon}
+                    />
+                  </span>
+                  <p className={styles.text6}>
+                    Offer valid till 25th March 2023
+                  </p>
+                </div>
               </div>
             </div>
           </div>
