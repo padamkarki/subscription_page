@@ -182,20 +182,11 @@
 /* Card------------------------------------------------------------------------------- */
 
 .card {
-  border: 2px;
+  border: 2px solid #de4313;
   border-style: solid;
-  border-image: linear-gradient(
-      135deg,
-      rgba(222, 67, 19, 1),
-      rgba(254, 193, 99, 1)
-    )
-    1;
+  /* border-image: linear-gradient(135deg, #de4313, #fec163) 1; */
   border-radius: 8px;
-  background: linear-gradient(
-    135deg,
-    rgba(222, 67, 19, 0.2),
-    rgba(254, 193, 99, 0.2)
-  );
+  background: linear-gradient(135deg, #de431333, #fec16333);
 }
 
 .offer_margin {
