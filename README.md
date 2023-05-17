@@ -1,6 +1,6 @@
 # Subscription Page
 
-## The Subscription Page project is a web application that allows users to select subscription plans and dynamically updates the total cost and discount based on the selected options.
+### The Subscription Page project is a web application that allows users to select subscription plans and dynamically updates the total cost and discount based on the selected options.
 
 # Getting Started with Create React App
 
